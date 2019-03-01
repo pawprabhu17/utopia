@@ -16,3 +16,7 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+hr
+{
+	color:red;
+}
