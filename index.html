@@ -56,36 +56,34 @@
             <div id="mycarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img class="d-block img-fluid" src="img/utopia1.jpg" alt="utopia">
-                            
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="img/utopia2.jpg" alt="utopia">
-                            
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid" src="img/utopia3.jpg" alt="utopia">                            
-                        </div>
-                        <ol class="carousel-indicators">
-                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#mycarousel" data-slide-to="1"></li>
-                            <li data-target="#mycarousel" data-slide-to="2"></li>
-                        </ol>
-                        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
+                        <img class="d-block img-fluid img-responsive" src="img/utopia1.jpg" alt="utopia">                            
                     </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid img-responsive" src="img/utopia2.jpg" alt="utopia">                            
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid img-responsive" src="img/utopia3.jpg" alt="utopia">                            
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon ml-0" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon mr-0" aria-hidden="true"></span>
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
     
 
 
     <div class="container mt-5">
-        <div class="row">
+        <div class="row ">
             <div class="col-12 col-sm-12">
                 <h2>RESULTS</h2>
                 <ul class="nav nav-tabs">
@@ -261,6 +259,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 2500
+        })
+    </script>
 </body>
 
 </html>
